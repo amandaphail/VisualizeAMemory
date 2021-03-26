@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import { Route } from "react-router-dom";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <header className="App-header">
         Hello
         <Navbar />
+        <Route exact path="/"></Route>
+        <Route path="/new"></Route>
       </header>
     </div>
   );
