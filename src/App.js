@@ -1,6 +1,9 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
+import Memories from "./components/Memories";
+import Form from "./components/Form";
+// import Guide from "./components/Guide";
 
 function App() {
   return (
@@ -8,8 +11,12 @@ function App() {
       <header className="App-header">
         Hello
         <Navbar />
-        <Route exact path="/"></Route>
-        <Route path="/new"></Route>
+        <Route exact path="/">
+          <Memories />
+        </Route>
+        <Route path="/new">
+          <Form />
+        </Route>
       </header>
     </div>
   );
