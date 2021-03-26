@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
-import Memories from "./components/Memories";
+import MemoriesList from "./components/MemoriesList";
 import Form from "./components/Form";
 // import Guide from "./components/Guide";
 
@@ -12,7 +12,7 @@ function App() {
         Hello
         <Navbar />
         <Route exact path="/">
-          <Memories />
+          <MemoriesList />
         </Route>
         <Route path="/new">
           <Form />
