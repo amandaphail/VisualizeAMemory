@@ -55,7 +55,7 @@ The user will go to google maps and get this link. I'll include a user guide wit
 
 - Delete your post
 - Update your post
-- Wiew collection of posts you've made - possibly by a log in
+- View collection of posts you've made - possibly by a log in
 - Allow user to view a random memory
 - Allow user to search for memory by location and/or location type
 
