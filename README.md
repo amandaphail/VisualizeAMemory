@@ -10,11 +10,7 @@ Do you ever have a memory stand out so strongly you can remember what the street
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-
 ## Component Hierarchy
-
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
 
 ## API and Data Sample
 
@@ -40,42 +36,69 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 _These are examples only. Replace with your own MVP features._
 
-- Find and use external api
-- Render data on page
-- Allow user to choose favorites
+- Be a working, interactive React app, built using create react app
+- Utilize React Router, installed via NPM.
+- Have at least 6 separate, rendered components.
+- Implement an organized and understandable React file structure.
+- Utilize functional and class React components appropriately.
+- Use Axios to consume data from Airtable, and GET/render that data in your components.
+- Use Axios to POST/create new data on Airtable.
+- Use only React for DOM Manipulation.
+
+- use useHistory
+- have map from google map populate the page so we can insert ourself in the memory setting
+- have a user guide component to show how to find the embedded code on google maps street view which they will copy and paste in the form
 
 #### PostMVP
 
 _These are examples only. Replace with your own Post-MVP features._
 
-- Add second API
-- Use local storage to save user favorites
+- delete your post
+- update your post
+- report a post as inappropriate
+- view collection of posts you've made - possibly by a log in
+- allow user to view a random memory
+- allow user to search for memory by location and/or location type
 
 ## Project Schedule
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
-| Day        | Deliverable                                        | Status     |
-| ---------- | -------------------------------------------------- | ---------- |
-| July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| July 13    | Project Approval                                   | Incomplete |
-| July 13    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| July 14    | Pseudocode / actual code                           | Incomplete |
-| July 15    | Initial Clickable Model                            | Incomplete |
-| July 16    | MVP                                                | Incomplete |
-| July 17    | Presentations                                      | Incomplete |
+| Day           | Deliverable                                                                                          | Status     |
+| ------------- | ---------------------------------------------------------------------------------------------------- | ---------- |
+| March 25 - 26 | Prompt / Wireframes / Component Hierarchy / Timeframes and Experiment with iframe and Map Embed Link | Complete   |
+| March 26      | Project Approval                                                                                     | Incomplete |
+| March 27 - 28 | pseudo code / Core Component and Route Structure / Import API and access information                 | Incomplete |
+| March 28      | Get Map and description to display on page through Memories component                                | Incomplete |
+| March 29      | Form component and Create Post                                                                       | Incomplete |
+| March 30      | Create User Guide "How to Post"                                                                      | Incomplete |
+| March 31      | CSS and Media Query                                                                                  | Incomplete |
+| April 1       | MVP                                                                                                  | Incomplete |
+| April 2       | Presentations                                                                                        | Incomplete |
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle. You have limited time to code all parts of your app. Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Component                                                             | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Set up Boiler Plate code and components                               |    H     |      1 hr      |      N/A      |     N/A     |
+| Import axios and react-router-dom, getting these set up in components |    H     |      1 hr      |      N/A      |     N/A     |
+| Hide baseURL and API key                                              |    H     |      1 hr      |      N/A      |     N/A     |
+| Get axios data access and Set Route Paths                             |    H     |      2 hr      |      N/A      |     N/A     |
+| Code Navbar component with Links                                      |    H     |      1 hr      |      N/A      |     N/A     |
+| Code Memories component with API info displaying                      |    H     |      3 hr      |      N/A      |     N/A     |
+| Get Map embed code to display functionally                            |    H     |      4 hr      |      N/A      |     N/A     |
+| CSS Navbar and Memories component                                     |    H     |      3 hr      |      N/A      |     N/A     |
+| Code Form component                                                   |    H     |      2 hr      |      N/A      |     N/A     |
+| Inputs value set to state                                             |    H     |      1 hr      |      N/A      |     N/A     |
+| Post input to homepage on submit                                      |    H     |      2 hr      |      N/A      |     N/A     |
+| User Guide prompts on load of Form component                          |    H     |      1 hr      |      N/A      |     N/A     |
+| CSS Form component                                                    |    H     |      2 hr      |      N/A      |     N/A     |
+| Create User Guide prompt Component code and full instructions         |    H     |      3 hr      |      N/A      |     N/A     |
+| have user guide as pop up over page instead of redirect               |    H     |      3 hr      |      N/A      |     N/A     |
+| User Guide CSS                                                        |    H     |      2 hr      |      N/A      |     N/A     |
+| Responsive Design - 1st device                                        |    H     |      2 hr      |      N/A      |     N/A     |
+| Responsive Design - 2nd device                                        |    H     |      2 hr      |      N/A      |     N/A     |
+| Total                                                                 |    H     |     36 hrs     |     5hrs      |    5hrs     |
 
 ## SWOT Analysis
 
