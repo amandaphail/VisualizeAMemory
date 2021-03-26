@@ -8,9 +8,17 @@ Experience a Memory
 
 Do you ever have a memory stand out so strongly you can remember what the street looks like, whether it was an achievement, happy moment, or just beautiful view? Or maybe one you wish to log forever? Here you can do just that, by sharing with our community your fondest memories. Create a post with the location and memory details, as well as a link to the google map location in person view, so we can all experience the view!
 
+The user will go to google maps and get this link. I'll include a user guide with screen shots on where to go to find this link, so the user can understand what needs to be submitted when creating a post.
+
+![alt text](https://res.cloudinary.com/mandatea/image/upload/v1616772089/EmbedURLFetch_euy0ki.png "Logo Title Text 1")
+
 ## Wireframes
 
+![alt text](https://res.cloudinary.com/mandatea/image/upload/v1616772987/Memory_Wireframes_ddm30y.png "Logo Title Text 1")
+
 ## Component Hierarchy
+
+![alt text](https://res.cloudinary.com/mandatea/image/upload/v1616772104/Component_Hierarchy_knadew.png "Logo Title Text 1")
 
 ## API and Data Sample
 
@@ -28,13 +36,7 @@ Do you ever have a memory stand out so strongly you can remember what the street
 }
 ```
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MVP and PostMVP. Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.
-
-#### MVP
-
-_These are examples only. Replace with your own MVP features._
+## MVP
 
 - Be a working, interactive React app, built using create react app
 - Utilize React Router, installed via NPM.
@@ -45,20 +47,17 @@ _These are examples only. Replace with your own MVP features._
 - Use Axios to POST/create new data on Airtable.
 - Use only React for DOM Manipulation.
 
-- use useHistory
-- have map from google map populate the page so we can insert ourself in the memory setting
-- have a user guide component to show how to find the embedded code on google maps street view which they will copy and paste in the form
+- Use useHistory
+- Have map from google map populate the page so we can insert ourself in the memory setting
+- Have a user guide component to show how to find the embedded code on google maps street view which they will copy and paste in the form
 
-#### PostMVP
+## PostMVP
 
-_These are examples only. Replace with your own Post-MVP features._
-
-- delete your post
-- update your post
-- report a post as inappropriate
-- view collection of posts you've made - possibly by a log in
-- allow user to view a random memory
-- allow user to search for memory by location and/or location type
+- Delete your post
+- Update your post
+- Wiew collection of posts you've made - possibly by a log in
+- Allow user to view a random memory
+- Allow user to search for memory by location and/or location type
 
 ## Project Schedule
 
@@ -80,32 +79,40 @@ This schedule will be used to keep track of your progress throughout the week an
 
 | Component                                                             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Set up Boiler Plate code and components                               |    H     |      1 hr      |      N/A      |     N/A     |
-| Import axios and react-router-dom, getting these set up in components |    H     |      1 hr      |      N/A      |     N/A     |
-| Hide baseURL and API key                                              |    H     |      1 hr      |      N/A      |     N/A     |
-| Get axios data access and Set Route Paths                             |    H     |      2 hr      |      N/A      |     N/A     |
-| Code Navbar component with Links                                      |    H     |      1 hr      |      N/A      |     N/A     |
-| Code Memories component with API info displaying                      |    H     |      3 hr      |      N/A      |     N/A     |
+| Set up Boiler Plate code and components                               |    M     |      1 hr      |      N/A      |     N/A     |
+| Import axios and react-router-dom, getting these set up in components |    M     |      1 hr      |      N/A      |     N/A     |
+| Hide baseURL and API key                                              |    M     |      1 hr      |      N/A      |     N/A     |
+| Get axios data access and Set Route Paths                             |    M     |      2 hr      |      N/A      |     N/A     |
+| Code Navbar component with Links                                      |    M     |      1 hr      |      N/A      |     N/A     |
+| Code Memories component with API info displaying                      |    M     |      3 hr      |      N/A      |     N/A     |
 | Get Map embed code to display functionally                            |    H     |      4 hr      |      N/A      |     N/A     |
-| CSS Navbar and Memories component                                     |    H     |      3 hr      |      N/A      |     N/A     |
-| Code Form component                                                   |    H     |      2 hr      |      N/A      |     N/A     |
-| Inputs value set to state                                             |    H     |      1 hr      |      N/A      |     N/A     |
-| Post input to homepage on submit                                      |    H     |      2 hr      |      N/A      |     N/A     |
+| CSS Navbar and Memories component                                     |    M     |      3 hr      |      N/A      |     N/A     |
+| Code Form component                                                   |    M     |      2 hr      |      N/A      |     N/A     |
+| Inputs value set to state                                             |    M     |      1 hr      |      N/A      |     N/A     |
+| Post input to homepage on submit                                      |    M     |      2 hr      |      N/A      |     N/A     |
 | User Guide prompts on load of Form component                          |    H     |      1 hr      |      N/A      |     N/A     |
-| CSS Form component                                                    |    H     |      2 hr      |      N/A      |     N/A     |
+| CSS Form component                                                    |    M     |      2 hr      |      N/A      |     N/A     |
 | Create User Guide prompt Component code and full instructions         |    H     |      3 hr      |      N/A      |     N/A     |
-| have user guide as pop up over page instead of redirect               |    H     |      3 hr      |      N/A      |     N/A     |
-| User Guide CSS                                                        |    H     |      2 hr      |      N/A      |     N/A     |
-| Responsive Design - 1st device                                        |    H     |      2 hr      |      N/A      |     N/A     |
-| Responsive Design - 2nd device                                        |    H     |      2 hr      |      N/A      |     N/A     |
-| Total                                                                 |    H     |     36 hrs     |     5hrs      |    5hrs     |
+| Have user guide as pop up over page instead of redirect               |    H     |      3 hr      |      N/A      |     N/A     |
+| User Guide CSS                                                        |    M     |      2 hr      |      N/A      |     N/A     |
+| Responsive Design - 1st device                                        |    M     |      2 hr      |      N/A      |     N/A     |
+| Responsive Design - 2nd device                                        |    M     |      2 hr      |      N/A      |     N/A     |
+| Total                                                                 |          |     36 hrs     |     5hrs      |    5hrs     |
 
 ## SWOT Analysis
 
 ### Strengths:
 
+I feel like I'm understanding React pretty well, and I believe in this project and myself. I'm great at feeling out how difficult a problem will be for me in the moment, so I can adapt my schedule and priorities accordingly.
+
 ### Weaknesses:
+
+I can get overwhelmed when I cant find a solution to a problem quickly, and instead of asking for help I try to continue to figure it out on my own, and researching on the Internet. I find myself wasting time, which makes me more overwhelmed, so I end up stuck in an infinite loop. I need a better understanding of when to call it quits and ask for help.
 
 ### Opportunities:
 
+Learning the basics of how to use and style iframe and also how to create a pop up window on my page are both challenges I'm excited for.
+
 ### Threats:
+
+I've never worked with iframe and without knowing how it works I'm intimidated by it. I do think it should be fairly simple but more worried about the unknown. I also need to make a clear user guide so the users have a straight forward way to understand what needs to be input, or it wont work.
