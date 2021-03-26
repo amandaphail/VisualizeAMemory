@@ -12,7 +12,8 @@ export default function MemoriesList() {
 
     async function getMemories(){
         let response = await axios.get(baseURL, config)
-        console.log (response)
+        console.log (response.data.records)
+        setMemories(response.data.records)
     }
     
 
