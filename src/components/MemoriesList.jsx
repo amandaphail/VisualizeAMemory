@@ -20,7 +20,6 @@ export default function MemoriesList() {
 
     return (
         <div>
-            MemsList
             {memories.map((memory) =>{
                 // console.log(memory.fields)
                 return <Memories memory={memory} id = {memory.id}/>

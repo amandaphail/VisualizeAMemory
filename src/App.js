@@ -9,7 +9,10 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <Navbar />
+        <header>
+          <h1>Share A Memory</h1>
+          <Navbar />
+        </header>
         <Route exact path="/">
           <MemoriesList />
         </Route>
