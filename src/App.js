@@ -8,17 +8,18 @@ import Guide from "./components/Guide";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
+      <div className="App-header">
         <Navbar />
         <Route exact path="/">
           <MemoriesList />
         </Route>
-        <Route path="/guide"><Guide /></Route>
+        <Route path="/guide">
+          <Guide />
+        </Route>
         <Route path="/new">
           <Form />
         </Route>
-      </header>
+      </div>
     </div>
   );
 }
