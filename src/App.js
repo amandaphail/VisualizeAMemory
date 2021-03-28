@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import MemoriesList from "./components/MemoriesList";
 import Form from "./components/Form";
 import Guide from "./components/Guide";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/new">
           <Form />
         </Route>
+        <Footer />
       </div>
     </div>
   );

@@ -33,7 +33,7 @@ export default function Memories(props) {
     // style="border:0;"
     allowfullscreen=""
     loading="lazy"
-  ></iframe>;
+  ></iframe>
         </div>
         <br />
         </div>
