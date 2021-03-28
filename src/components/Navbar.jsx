@@ -7,6 +7,7 @@ export default function Navbar() {
             
             <Link to ="/">Home </Link>
             <Link to="/new">Share a Memory </Link>
+            <Link to="/guide">User Guide</Link>
         </div>
     )
 }

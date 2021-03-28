@@ -3,17 +3,18 @@ import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
 import MemoriesList from "./components/MemoriesList";
 import Form from "./components/Form";
-// import Guide from "./components/Guide";
+import Guide from "./components/Guide";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hello
+        
         <Navbar />
         <Route exact path="/">
           <MemoriesList />
         </Route>
+        <Route path="/guide"><Guide /></Route>
         <Route path="/new">
           <Form />
         </Route>
