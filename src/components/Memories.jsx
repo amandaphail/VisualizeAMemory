@@ -9,22 +9,31 @@ export default function Memories(props) {
     let splitMap = mapInput.split(`"`)
     let userLink = splitMap[1]
 
-    console.log(mapInput)
+    console.log(splitMap)
     // console.log(mapInput)
     // console.log(mem)
 
     return (
         <div>
             <br/>
-        <div id = "left">
+            <div id = "left">
             <p>
                 {mem.description}
             </p>
             <p>{mem.name}</p>
-        </div>
+            </div>
         <br/>
         <div id ="right">
-            {userLink}
+            {/* {userLink} */}
+            <br/>
+            <iframe
+    src={`${userLink}`}
+    width="600"
+    height="450"
+    // style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+  ></iframe>;
         </div>
         <br />
         </div>
