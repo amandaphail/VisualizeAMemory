@@ -1,7 +1,8 @@
-*{
-  margin: 0 auto;
+* {
+  /* margin: 0 auto;
+   */
+   text-align: center;
 }
-
 
 /* .App {
   text-align: center;
