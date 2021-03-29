@@ -1,4 +1,5 @@
 import React from 'react'
+import "./memories.css"
 
 export default function Memories(props) {
 
@@ -14,7 +15,7 @@ export default function Memories(props) {
     // console.log(mem)
 
     return (
-        <div>
+        <div id = "memories">
             <br/>
             <div id = "left">
             <p>

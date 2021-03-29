@@ -1,0 +1,17 @@
+#memories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#left {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(207, 206, 206);
+}
+
+#right {
+}
