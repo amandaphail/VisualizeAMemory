@@ -16,9 +16,13 @@ function handleChange(event){
     setMemory((prevState)=>({...prevState,[name]:value}))
 }
 
+function handleSubmit(event){
+    event.preventDefault()
+    
+}
     return (
         <div>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label htmlFor="name">
                     Name:  
                 </label>
@@ -39,6 +43,7 @@ function handleChange(event){
                     Type:  
                 </label>
                 <input type ="text" name = "type" id="type" required onChange={handleChange} value={memory.type}/>
+                <input type="submit"/>
 
             </form>
         </div>
