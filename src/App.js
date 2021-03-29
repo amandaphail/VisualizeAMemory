@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <div className="App-header">
         <header>
-          <h1>Share A Memory</h1>
+          
           <Navbar />
         </header>
         <Route exact path="/">
