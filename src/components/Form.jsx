@@ -3,6 +3,7 @@ import React from 'react'
 import {useState} from "react"
 import {baseURL, config} from "../services"
 import {useHistory} from "react-router-dom"
+import "./form.css"
 
 export default function Form(props) {
 
@@ -29,28 +30,40 @@ async function handleSubmit(event){
     
 }
     return (
-        <div>
+        <div id="form">
             <form onSubmit={handleSubmit}>
+                <div class="criteria">
+
                 <label htmlFor="name">
                     Name:  
                 </label>
-                <input type ="text" name = "name" id="name" required onChange={handleChange} value={memory.name}/>
+                <input class="inputs" type ="text" name = "name" id="name" required onChange={handleChange} value={memory.name}/>
+                </div>
+                <div class="criteria">
                 <label htmlFor="description">
+                
                     Description: 
                 </label>
-                <input type ="text" name = "description" id="description" required onChange={handleChange} value={memory.description}/>
+                <input class="inputs" type ="text" name = "description" id="description" required onChange={handleChange} value={memory.description}/>
+                </div>
+                <div class="criteria">
                 <label htmlFor="memoryLink">
-                    Google Maps Embed Link:   
+                    Memory View Embed Link:   
                 </label>
-                <input type ="text" name = "memoryLink" id="memoryLink" required onChange={handleChange} value={memory.memoryLink}/>
+                <input class="inputs" type ="text" name = "memoryLink" id="memoryLink" required onChange={handleChange} value={memory.memoryLink}/>
+                </div>
+                <div class="criteria">
                 <label htmlFor="location">
                     Location:  
                 </label>
-                <input type ="text" name = "location" id="location" required onChange={handleChange} value={memory.location}/>
+                <input class="inputs" type ="text" name = "location" id="location" required onChange={handleChange} value={memory.location}/>
+                </div>
+                <div class="criteria">
                 <label htmlFor="type">
                     Type:  
                 </label>
-                <input type ="text" name = "type" id="type" required onChange={handleChange} value={memory.type}/>
+                <input class="inputs" type ="text" name = "type" id="type" required onChange={handleChange} value={memory.type}/>
+                </div>
                 <input type="submit"/>
 
             </form>
