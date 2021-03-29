@@ -2,6 +2,7 @@ import axios from 'axios'
 import React from 'react'
 import {useState} from "react"
 import {baseURL, config} from "../services"
+import {useHistory} from "react-router-dom"
 
 export default function Form(props) {
 
@@ -13,6 +14,8 @@ let [memory, setMemory]= useState({
     type: "",
 })
 
+const history = useHistory()
+
 function handleChange(event){
     let {name, value} = event.target
     setMemory((prevState)=>({...prevState,[name]:value}))
@@ -21,6 +24,8 @@ function handleChange(event){
 async function handleSubmit(event){
     event.preventDefault()
     await axios.post(baseURL,{fields:memory}, config)
+    props.setToggle((prevState) => !prevState )
+    history.push('/')
     
 }
     return (

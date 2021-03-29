@@ -22,7 +22,7 @@ function App() {
 
     setMemories(response.data.records);
   }
-  console.log(memories);
+  // console.log(memories);
 
   return (
     <div className="App">
@@ -38,7 +38,7 @@ function App() {
           <Guide />
         </Route>
         <Route path="/new">
-          <Form />
+          <Form setToggle={setToggle}/>
         </Route>
         <Footer />
       </div>
