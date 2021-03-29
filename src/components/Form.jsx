@@ -30,7 +30,10 @@ async function handleSubmit(event){
     
 }
     return (
+        
         <div id="form">
+            <h2>Share your memories!</h2>
+            <p>You too can share your memories with the community!  All you need is access to google maps on your computer, and to fill out this form.  Need help finding the Google Maps embed link?  Check out our User Guide!</p>
             <form onSubmit={handleSubmit}>
                 <div class="criteria">
 

@@ -22,6 +22,9 @@ form {
 }
 
 .inputs {
-  /* padding: 10px; */
-  width:500px;
+  width: 500px;
+}
+
+p{
+    width: 500px;
 }
