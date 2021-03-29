@@ -1,7 +1,9 @@
+import axios from 'axios'
 import React from 'react'
 import {useState} from "react"
+import {baseURL, config} from "../services"
 
-export default function Form() {
+export default function Form(props) {
 
 let [memory, setMemory]= useState({
     name: "",
@@ -16,8 +18,9 @@ function handleChange(event){
     setMemory((prevState)=>({...prevState,[name]:value}))
 }
 
-function handleSubmit(event){
+async function handleSubmit(event){
     event.preventDefault()
+    await axios.post(baseURL,{fields:memory}, config)
     
 }
     return (

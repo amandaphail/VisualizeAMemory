@@ -1,23 +1,10 @@
 import React from 'react'
-import axios from 'axios'
-import {useState, useEffect} from "react"
-import {baseURL, config} from "../services"
+
 import Memories from "./Memories"
-export default function MemoriesList() {
+export default function MemoriesList(props) {
 
-    const [memories,setMemories] = useState([])
-
-    useEffect(()=> { 
-        getMemories()
-    },[])
-
-    async function getMemories(){
-        let response = await axios.get(baseURL, config)
-        
-        setMemories(response.data.records)
-    }
-     console.log(memories)
-
+    
+let memories = props.memories
     return (
         <div>
             {memories.map((memory) =>{
