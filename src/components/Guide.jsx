@@ -13,11 +13,11 @@ export default function Guide() {
                </h1> 
                <h4 id="warning">Please be advised, you can only create a post on a computer, not on a mobile device</h4>
             <p>Step 1:</p>
-            <img src={step1}/>
+            <img src={step1} alt = "step 1"/>
             <p>Step 2:</p>
-            <img src={step2}/>
+            <img src={step2} alt = "step 2"/>
             <p>Step 3:</p>
-            <img src={step3}/>
+            <img src={step3} alt = "step 3"/>
         </div>
     )
 }

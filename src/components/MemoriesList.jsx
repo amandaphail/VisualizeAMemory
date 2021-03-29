@@ -7,9 +7,9 @@ export default function MemoriesList(props) {
 let memories = props.memories
     return (
         <div>
-            {memories.map((memory) =>{
+            {memories.map((memory, index) =>{
                 // console.log(memory.fields)
-                return <Memories memory={memory} id = {memory.id}/>
+                return <Memories key = {index} memory={memory} id = {memory.id}/>
             })}
         </div>
     )
