@@ -2,6 +2,10 @@ import React from 'react'
 import "./memories.css"
 import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core'
 import { ExpandMore } from '@material-ui/icons';
+import { withStyles } from '@material-ui/core/styles';
+import MuiAccordion from '@material-ui/core/Accordion';
+import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
+import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 
 export default function Memories(props) {
 
@@ -16,42 +20,43 @@ export default function Memories(props) {
     // console.log(mapInput)
     // console.log(mem)
 
+    const Accordion = withStyles({
+        root: {
+          border: '1px solid #AFD0BF',
+          boxShadow: 'none',
+          borderRadius: '30px',
+          '&:not(:last-child)': {
+            
+          },
+          '&:before': {
+            display: 'none',
+          },
+          '&$expanded': {
+            margin: 'auto',
+          },
+        },
+        expanded: {},
+      })(MuiAccordion);
+
+      
+
     return (
         <div id = "memories">
             <br/>
             <Accordion>
                 <AccordionSummary expandIcon={<ExpandMore />}>
-
-            <div id = "left">
-            <p>
-                {mem.description}
-            </p>
-            <p>{mem.name}</p>
-            </div>
+                    <div id = "left">
+                        <p> {mem.description}</p>
+                        <p>{mem.name}</p>
+                    </div>
                 </AccordionSummary>
-        
-<AccordionDetails>
-    
-        <div id ="right">
-            <br/>
-            <iframe
-    src={`${userLink}`}
-    width="600"
-    height="450"
-    // style="border:0;"
-    allowfullscreen=""
-    loading="lazy"
-  ></iframe>
-  <p>
-                    To become even more immersed, go ahead and switch to full screen view in the Google Map
-                </p>
-        </div>
-        
-        
-</AccordionDetails>
-        </Accordion>
-        
-        <br />
+                <AccordionDetails>
+                    <div id ="right">
+                        <iframe src={`${userLink}`} allowfullscreen="" loading="lazy"></iframe>
+                        <p> To become even more immersed, go ahead and switch to full screen view in the Google Map</p>
+                    </div>
+                </AccordionDetails>
+            </Accordion>
         </div>
         
     )

@@ -8,8 +8,14 @@
 }
 
 #left {
-  width: 300px;
-  padding: 20px;
+  width: 400px;
+  /* padding: 20px;
   margin: 20px;
-  background-color: rgb(207, 206, 206);
+  background-color: rgb(207, 206, 206); */
+}
+
+iframe{
+    width:600px;
+    height:450px;
+     
 }
