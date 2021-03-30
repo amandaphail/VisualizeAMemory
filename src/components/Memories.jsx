@@ -38,7 +38,12 @@ export default function Memories(props) {
         expanded: {},
       })(MuiAccordion);
 
-      
+      const AccordionSummary = withStyles({
+        content: {
+          flexGrow: 0
+        }
+      })(MuiAccordionSummary);
+
 
     return (
         <div id = "memories">
