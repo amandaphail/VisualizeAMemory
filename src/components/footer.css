@@ -1,0 +1,10 @@
+#logo {
+  height: 50px;
+  width: auto;
+}
+
+#footer {
+  margin-top: 50px;
+  background-color: grey;
+  padding: 10px;
+}
