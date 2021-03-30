@@ -11,11 +11,8 @@
   width: 400px;
 }
 
-iframe{
-    width:600px;
-    height:450px;    
-}
-
-.font{
-    
+iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
 }

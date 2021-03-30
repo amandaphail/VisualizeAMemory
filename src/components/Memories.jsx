@@ -5,7 +5,7 @@ import { ExpandMore } from '@material-ui/icons';
 import { withStyles } from '@material-ui/core/styles';
 import MuiAccordion from '@material-ui/core/Accordion';
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
-import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
+
 
 export default function Memories(props) {
 
@@ -51,8 +51,8 @@ export default function Memories(props) {
             <Accordion>
                 <AccordionSummary expandIcon={<ExpandMore />}>
                     <div id = "left">
-                        <p class="font"> {mem.description}</p>
-                        <p class="font">{mem.name}</p>
+                        <p> {mem.description}</p>
+                        <p>{mem.name}</p>
                     </div>
                 </AccordionSummary>
                 <AccordionDetails>
