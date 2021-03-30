@@ -33,7 +33,6 @@ export default function Memories(props) {
 <AccordionDetails>
     
         <div id ="right">
-            {/* {userLink} */}
             <br/>
             <iframe
     src={`${userLink}`}
@@ -51,3 +50,4 @@ export default function Memories(props) {
         
     )
 }
+// https://www.freakyjolly.com/react-material-ui-accordion-tabs-tutorial-with-example/#Using_Accordion_Component
