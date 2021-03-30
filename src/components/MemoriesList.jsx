@@ -1,12 +1,13 @@
 import React from 'react'
-
 import Memories from "./Memories"
+import "./memorieslist.css"
+
 export default function MemoriesList(props) {
 
     
 let memories = props.memories
     return (
-        <div>
+        <div id="memoriesStyle">
             <div id="intro">
                 Expand any memory that resonates, and you can see into the world where it happened!
             </div>
