@@ -67,3 +67,4 @@ export default function Memories(props) {
     )
 }
 // https://www.freakyjolly.com/react-material-ui-accordion-tabs-tutorial-with-example/#Using_Accordion_Component
+// https://stackoverflow.com/questions/63359031/react-material-ui-accordion-how-to-center-header-and-expand-icon

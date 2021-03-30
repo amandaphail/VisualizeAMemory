@@ -4,6 +4,8 @@ import {useState} from "react"
 import {baseURL, config} from "../services"
 import {useHistory} from "react-router-dom"
 import "./form.css"
+import { Popover } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 
 export default function Form(props) {
 
@@ -29,11 +31,47 @@ async function handleSubmit(event){
     history.push('/')
     
 }
+
+const[anchorEl, setAnchorEl] = useState(null)
+
+const handleClick = (event) => {
+        setAnchorEl(event.currentTarget)
+};
+
+const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? 'simple-popover' : undefined;
+
+
     return (
         
         <div id="form">
             <h2>Share your memories!</h2>
             <p id="p">You too can share your memories with the community!  All you need is access to google maps on your computer, and to fill out this form.  Need help finding the Google Maps embed link?  Check out our User Guide!</p>
+
+            <Button aria-describedby={id} variant="contained" color="primary" onClick={handleClick}>
+                    Open Popover
+            </Button>
+            <Popover 
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+                anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'right',
+                  }}
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+            >
+                The content of the Popover.
+            </Popover>
+
             <form onSubmit={handleSubmit}>
                 <div class="criteria">
 
