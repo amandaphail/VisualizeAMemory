@@ -51,8 +51,8 @@ export default function Memories(props) {
             <Accordion>
                 <AccordionSummary expandIcon={<ExpandMore />}>
                     <div id = "left">
-                        <p> {mem.description}</p>
-                        <p>{mem.name}</p>
+                        <p class="font"> {mem.description}</p>
+                        <p class="font">{mem.name}</p>
                     </div>
                 </AccordionSummary>
                 <AccordionDetails>
