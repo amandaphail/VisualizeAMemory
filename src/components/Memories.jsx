@@ -1,5 +1,7 @@
 import React from 'react'
 import "./memories.css"
+import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core'
+import { ExpandMore } from '@material-ui/icons';
 
 export default function Memories(props) {
 
@@ -17,13 +19,19 @@ export default function Memories(props) {
     return (
         <div id = "memories">
             <br/>
+            <Accordion>
+                <AccordionSummary expandIcon={<ExpandMore />}>
+
             <div id = "left">
             <p>
                 {mem.description}
             </p>
             <p>{mem.name}</p>
             </div>
-        <br/>
+                </AccordionSummary>
+        
+<AccordionDetails>
+    
         <div id ="right">
             {/* {userLink} */}
             <br/>
@@ -36,6 +44,8 @@ export default function Memories(props) {
     loading="lazy"
   ></iframe>
         </div>
+</AccordionDetails>
+        </Accordion>
         <br />
         </div>
         
