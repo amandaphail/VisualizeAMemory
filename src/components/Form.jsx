@@ -111,6 +111,7 @@ const StyledButton = withStyles({
                     Memory View Embed Link:   
                 </label>
                 <input className="inputs" type ="text" name = "memoryLink" id="memoryLink" required onChange={handleChange} value={memory.memoryLink}/>
+                <p className="instruction">*Refer to our User Guide to get the right link!</p>
                 </div>
                 <div className="criteria">
                 <label htmlFor="location">
@@ -120,9 +121,10 @@ const StyledButton = withStyles({
                 </div>
                 <div className="criteria">
                 <label htmlFor="type">
-                    Type:  
+                    Location Type:  
                 </label>
                 <input className="inputs" type ="text" name = "type" id="type" required onChange={handleChange} value={memory.type}/>
+                <p className="instruction">*Ex: mountains, city, beach, field, small town, desert, etc.</p>
                 </div>
                 <input type="submit"/>
 
