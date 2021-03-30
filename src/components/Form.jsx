@@ -6,6 +6,7 @@ import {useHistory} from "react-router-dom"
 import "./form.css"
 import { Popover } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
+import Guide from "./Guide"
 
 export default function Form(props) {
 
@@ -69,7 +70,7 @@ const handleClose = () => {
                     horizontal: 'right',
                   }}
             >
-                The content of the Popover.
+                <Guide />
             </Popover>
 
             <form onSubmit={handleSubmit}>
