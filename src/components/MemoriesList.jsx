@@ -9,7 +9,10 @@ let memories = props.memories
     return (
         <div id="memoriesStyle">
             <div id="intro">
-                Expand any memory that resonates, and you can see into the world where it happened!
+                <h3>
+                    Expand any memory that resonates, and you can see into the world where it happened!
+                    </h3>
+                
             </div>
             <div>
 

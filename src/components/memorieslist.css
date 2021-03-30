@@ -1,12 +1,12 @@
 #intro {
   width: 400px;
-  margin: 50px;
+  margin-top: 50px;
 }
 
 #memoriesStyle {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }

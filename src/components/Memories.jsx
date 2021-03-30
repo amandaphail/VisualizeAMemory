@@ -42,9 +42,15 @@ export default function Memories(props) {
     allowfullscreen=""
     loading="lazy"
   ></iframe>
+  <p>
+                    To become even more immersed, go ahead and switch to full screen view in the Google Map
+                </p>
         </div>
+        
+        
 </AccordionDetails>
         </Accordion>
+        
         <br />
         </div>
         
