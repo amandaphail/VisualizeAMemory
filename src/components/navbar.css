@@ -55,8 +55,11 @@ a:hover {
   #links {
     border: 0;
     border-top: 1px solid white;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
     padding-left: 0;
   }
@@ -64,14 +67,17 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
   h1 {
-    font-size: 40px;
+    font-size: 27px;
     text-align: center;
     margin-right: 0;
     margin-bottom: 0;
   }
 
+  #links {
+  }
+
   a {
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 5px;
   }
 }
