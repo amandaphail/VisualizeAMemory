@@ -69,7 +69,7 @@ const StyledButton = withStyles({
     return (
         
         <div id="form">
-            <h2>Share your memories!</h2>
+            <h2 id="share">Share your memories!</h2>
             <p id="p">You too can share your memories with the community!  All you need is access to google maps on your computer, and to fill out this form.  Need help finding the Google Maps embed link?  Check out our User Guide!</p>
 
             <StyledButton aria-describedby={id} variant="outlined" color="primary" onClick={handleClick}>

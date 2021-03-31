@@ -68,15 +68,32 @@ label {
   }
 
   .inputs {
-    width: 50%;
+    width: 200px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+/* phone */
+@media only screen and (max-width: 500px) {
   form {
     width: 100%;
   }
-  /* .instruction {
-    font-size: 2px;
-  } */
+
+  .criteria {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-content: flex-start; */
+    /* align-items: flex-start; */
+  }
+  .instruction {
+    font-size: 12px;
+  }
+
+  #share{
+    font-size: 25px;
+  }
+
+  #p{
+    font-size: 15px;
+  }
 }
