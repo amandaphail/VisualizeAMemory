@@ -39,17 +39,12 @@ label {
 
 /* ipad */
 @media only screen and (max-width: 900px) {
-  h2 {
-    font-size: 10px;
-  }
-
   #form {
     /* width: 70%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: flex-start;
-    
   }
 
   #p {

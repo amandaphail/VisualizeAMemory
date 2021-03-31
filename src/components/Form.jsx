@@ -94,41 +94,42 @@ const StyledButton = withStyles({
 
             <form onSubmit={handleSubmit}>
                 <div className="criteria">
-
-                <label htmlFor="name">
-                    Name:  
-                </label>
-                <input className="inputs" type ="text" name = "name" id="name" required onChange={handleChange} value={memory.name}/>
+                    <label htmlFor="name">
+                        Name:  
+                    </label>
+                    <input className="inputs" type ="text" name = "name" id="name" required onChange={handleChange} value={memory.name}/>
                 </div>
                 <div className="criteria">
-                <label htmlFor="description">
-                
-                    Description: 
-                </label>
-                <input className="inputs" type ="text" name = "description" id="description" required onChange={handleChange} value={memory.description}/>
+                    <label htmlFor="description">
+                        Description: 
+                    </label>
+                    <input className="inputs" type ="text" name = "description" id="description" required onChange={handleChange} value={memory.description}/>
                 </div>
                 <div className="criteria">
-                <label htmlFor="memoryLink">
-                    Memory View Embed Link:   
-                </label>
-                <input className="inputs" type ="text" name = "memoryLink" id="memoryLink" required onChange={handleChange} value={memory.memoryLink}/>
-                <p className="instruction">*Refer to our User Guide to get the right link!</p>
+                    <label htmlFor="memoryLink">
+                        Memory View Embed Link:   
+                    </label>
+                    <input className="inputs" type ="text" name = "memoryLink" id="memoryLink" required onChange={handleChange} value={memory.memoryLink}/>
+                    <p className="instruction">
+                        *Refer to our User Guide to get the right link!
+                    </p>
                 </div>
                 <div className="criteria">
-                <label htmlFor="location">
-                    Location:  
-                </label>
-                <input className="inputs" type ="text" name = "location" id="location" required onChange={handleChange} value={memory.location}/>
+                    <label htmlFor="location">
+                        Location:  
+                    </label>
+                    <input className="inputs" type ="text" name = "location" id="location" required onChange={handleChange} value={memory.location}/>
                 </div>
                 <div className="criteria">
-                <label htmlFor="type">
-                    Location Type:  
-                </label>
-                <input className="inputs" type ="text" name = "type" id="type" required onChange={handleChange} value={memory.type}/>
-                <p className="instruction">*Ex: mountains, city, beach, field, small town, desert, etc.</p>
+                    <label htmlFor="type">
+                        Location Type:  
+                    </label>
+                    <input className="inputs" type ="text" name = "type" id="type" required onChange={handleChange} value={memory.type}/>
+                    <p className="instruction">
+                        *Ex: mountains, city, beach, field, small town, desert, etc.
+                    </p>
                 </div>
                 <input type="submit"/>
-
             </form>
         </div>
     )
