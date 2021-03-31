@@ -26,8 +26,17 @@ iframe {
 }
 
 @media only screen and (max-width: 500px) {
-  iframe {
-    width: 300px;
-    height: 300px;
+  #memories {
+    margin: 0;
   }
+  iframe {
+    width: 280px;
+    height: 250px;
+  }
+  #left {
+    width: 100%;
+  }
+  /* #right{
+    width: 50%
+  } */
 }
