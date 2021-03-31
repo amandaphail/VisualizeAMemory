@@ -22,6 +22,7 @@ export default function Memories(props) {
 
     const Accordion = withStyles({
         root: {
+          width: '90%',
           border: '1px solid #AFD0BF',
           boxShadow: 'none',
           borderRadius: '30px',
@@ -51,8 +52,8 @@ export default function Memories(props) {
             <Accordion>
                 <AccordionSummary expandIcon={<ExpandMore />}>
                     <div id = "left">
-                        <p class="memory"> {mem.description}</p>
-                        <p class="memory">{mem.name}</p>
+                        <p className="memory"> {mem.description}</p>
+                        <p className="memory">{mem.name}</p>
                     </div>
                 </AccordionSummary>
                 <AccordionDetails>

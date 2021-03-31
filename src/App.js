@@ -25,24 +25,20 @@ function App() {
   // console.log(memories);
 
   return (
-    <div className="App">
-      
-      <div className="App-header">
-        <header>
-          
-          <Navbar />
-        </header>
-        <Route exact path="/">
-          <MemoriesList memories={memories} setToggle={setToggle} />
-        </Route>
-        <Route path="/guide">
-          <Guide />
-        </Route>
-        <Route path="/new">
-          <Form setToggle={setToggle}/>
-        </Route>
-        <Footer />
-      </div>
+    <div>
+      <header>
+        <Navbar />
+      </header>
+      <Route exact path="/">
+        <MemoriesList memories={memories} setToggle={setToggle} />
+      </Route>
+      <Route path="/guide">
+        <Guide />
+      </Route>
+      <Route path="/new">
+        <Form setToggle={setToggle} />
+      </Route>
+      <Footer />
     </div>
   );
 }
