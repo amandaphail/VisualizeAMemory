@@ -8,18 +8,18 @@ export default function Navbar() {
 
     return (
         <div id="navbar"> 
-            <div>
-            <h1>Experience A Memory</h1>
+            <div id="title">
+                <h1>Experience A Memory</h1>
             </div>
-        <div id="links">
+            <div id="links">
             
-            <Link to ="/">Home </Link>
-            <br/>
-            <Link to="/new">Share a Memory </Link>
-            <br/>
-            <Link to="/guide">User Guide</Link>
+                <Link to ="/">Home </Link>
+                
+                <Link to="/new">Share a Memory </Link>
+                
+                <Link to="/guide">User Guide</Link>
             
-        </div>
+            </div>
         </div>
     )
 }
