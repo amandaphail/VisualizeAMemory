@@ -37,19 +37,19 @@ label {
   font-size: 14px;
 }
 
+/* ipad */
 @media only screen and (max-width: 900px) {
   h2 {
     font-size: 10px;
   }
 
   #form {
-    width: 70%;
+    /* width: 70%; */
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: flex-start;
-    align-items: flex-end;
+    
   }
 
   #p {
@@ -57,7 +57,7 @@ label {
   }
 
   .criteria {
-  /* display: flex;
+    /* display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -67,7 +67,7 @@ label {
     justify-content: space-around;
     align-content: flex-start;
     align-items: center;
-}
+  }
 
   label {
     font-size: 15px;
