@@ -40,7 +40,6 @@ label {
 /* ipad */
 @media only screen and (max-width: 900px) {
   #form {
-    /* width: 70%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,4 +70,13 @@ label {
   .inputs {
     width: 50%;
   }
+}
+
+@media only screen and (max-width: 400px) {
+  form {
+    width: 100%;
+  }
+  /* .instruction {
+    font-size: 2px;
+  } */
 }
