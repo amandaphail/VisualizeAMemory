@@ -21,8 +21,14 @@ export default function Guide() {
             </p>
             <img src={step1} alt = "step 1"/>
             <p>Step 2:</p>
+            <p class ="instructions">
+                Once you have found the perfect spot and view of your memory, click the three dots in the upper left corner.  Then click the "Share or embed image" in the drop down.
+            </p>
             <img src={step2} alt = "step 2"/>
             <p>Step 3:</p>
+            <p class ="instructions">
+                Make sure to click the Embed a map tab, and then click the "COPY HTML" link.  This it the link you will paste into the "Memory View Embed Link:" field in the Chare a Memory form.
+            </p>
             <img src={step3} alt = "step 3"/>
         </div>
     )
