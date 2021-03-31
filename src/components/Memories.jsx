@@ -17,7 +17,9 @@ export default function Memories(props) {
   let splitMap = mapInput.split(`"`)
   let userLink = splitMap[1]
   // let mapSplit = splitMap[0]
-    
+  
+  // setMapSplit()
+  props.setMapSplit(splitMap[0]);
 
     // console.log(splitMap)
     // console.log(mapInput)
@@ -62,7 +64,7 @@ export default function Memories(props) {
                 <AccordionDetails>
                     <div id ="right">
                         <iframe src={`${userLink}`} allowfullscreen="" loading="lazy"></iframe>
-                        <p class="instruction">  *To become even more immersed, go ahead and switch to full screen view in the Google Map</p>
+                        <p className="instruction">  *To become even more immersed, go ahead and switch to full screen view in the Google Map</p>
                     </div>
                 </AccordionDetails>
             </Accordion>
