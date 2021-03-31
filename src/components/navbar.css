@@ -15,17 +15,20 @@
   align-items: flex-start;
   border-left: 1px solid white;
   padding: 10px;
+  padding-left: 20px;
 }
 
 h1 {
   padding: 10px;
-  font-size: 50px;
+  font-size: 60px;
   text-align:right;
+  margin-right: 20px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 a:visited{

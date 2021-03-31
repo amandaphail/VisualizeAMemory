@@ -7,6 +7,10 @@
   margin: 50px;
 }
 
+p{
+  font-size: 18px;
+}
+
 #left {
   width: 400px;
 }
@@ -15,4 +19,8 @@ iframe {
   width: 600px;
   height: 450px;
   border: 0;
+}
+
+.instruction{
+  font-size: 11px;
 }
