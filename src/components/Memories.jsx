@@ -9,12 +9,15 @@ import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
 
 export default function Memories(props) {
 
-    let mem = props.memory.fields
-
-    let mapInput = props.memory.fields.memoryLink
     
-    let splitMap = mapInput.split(`"`)
-    let userLink = splitMap[1]
+  let mem = props.memory.fields
+
+  let mapInput = props.memory.fields.memoryLink
+  
+  let splitMap = mapInput.split(`"`)
+  let userLink = splitMap[1]
+  // let mapSplit = splitMap[0]
+    
 
     // console.log(splitMap)
     // console.log(mapInput)

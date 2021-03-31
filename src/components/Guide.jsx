@@ -27,7 +27,7 @@ export default function Guide() {
             <img src={step2} alt = "step 2"/>
             <p>Step 3:</p>
             <p class ="instructions">
-                Make sure to click the Embed a map tab, and then click the "COPY HTML" link.  This it the link you will paste into the "Memory View Embed Link:" field in the Chare a Memory form.
+                Make sure to click the Embed a map tab, and then click the "COPY HTML" link.  This it the link you will paste into the "Memory View Embed Link:" field in the Share a Memory form.
             </p>
             <img src={step3} alt = "step 3"/>
         </div>
