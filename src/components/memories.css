@@ -24,3 +24,7 @@ iframe {
 .instruction{
   font-size: 11px;
 }
+
+@media only screen and (max-width: 900px){
+
+}
