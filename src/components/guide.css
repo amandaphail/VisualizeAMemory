@@ -41,4 +41,15 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  #warning {
+    font-size: 15px;
+  }
+
+  .instructions {
+    font-size: 13px;
+  }
 }
