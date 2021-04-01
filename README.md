@@ -80,24 +80,30 @@ This schedule will be used to keep track of your progress throughout the week an
 | Component                                                             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Set up Boiler Plate code and components                               |    M     |      1 hr      |      1hr      |    1 hrs    |
-| Import axios and react-router-dom, getting these set up in components |    M     |      1 hr      |      .5 hr      |    1 hrs    |
+| Import axios and react-router-dom, getting these set up in components |    M     |      1 hr      |     .5 hr     |    1 hrs    |
 | Hide baseURL and API key                                              |    M     |      1 hr      |     .5 hr     |    1 hrs    |
-| Get axios data access and Set Route Paths                             |    M     |      2 hr      |      1 hr     |    1 hr    |
-| Code Navbar component with Links                                      |    M     |      1 hr      |     1 hr     |    1 hr    |
-| Code Memories component with API info displaying                      |    M     |      3 hr      |     1 hr    |    1 hr   |
-| Get Map embed code to display functionally                            |    H     |      4 hr      |     1 hr     |    1 hr    |
-| CSS Navbar and Memories component                                     |    M     |      3 hr      |     1 hrs     |    1 hrs    |
-| Code Form component                                                   |    M     |      2 hr      |     1 hrs     |    1 hrs    |
-| Inputs value set to state                                             |    M     |      1 hr      |     1 hrs     |    1 hrs    |
-| Post input to homepage on submit                                      |    M     |      2 hr      |     1 hrs     |    1 hrs    |
-| User Guide prompts on load of Form component                          |    H     |      1 hr      |     1 hrs     |    1 hrs    |
-| CSS Form component                                                    |    M     |      2 hr      |     1 hrs     |    1 hrs    |
-| Create User Guide prompt Component code and full instructions         |    H     |      3 hr      |     1 hrs     |    1 hrs    |
-| Have user guide as pop up over page instead of redirect               |    H     |      3 hr      |     1 hrs     |    1 hrs    |
-| User Guide CSS                                                        |    M     |      2 hr      |     1 hrs     |    1 hrs    |
-| Responsive Design - 1st device                                        |    M     |      2 hr      |     1 hrs     |    1 hrs    |
-| Responsive Design - 2nd device                                        |    M     |      2 hr      |     1 hrs     |    1 hrs    |
-| Total                                                                 |          |     36 hrs     |     5hrs      |    5hrs     |
+| Get axios data access and Set Route Paths                             |    M     |      2 hr      |     1 hr      |    1 hr     |
+| Code Navbar component with Links                                      |    M     |      1 hr      |     1 hr      |    1 hr     |
+| Code Footer Component with Github Link                                |    H     |      N/A       |    1.5 hr     |   1.5 hr    |
+| CSS Footer                                                            |    H     |      N/A       |     .5 hr     |   .5 hrS    |
+| Code Memories component with API info displaying                      |    M     |      3 hr      |     1 hr      |    1 hr     |
+| Get Map embed code to display functionally                            |    H     |      4 hr      |     1 hr      |    1 hr     |
+| Learn and implement Material UI Accordion                             |    H     |      N/A       |     2 hrs     |    2 hrs    |
+| CSS Navbar and Memories component                                     |    M     |      3 hr      |     2 hrs     |    2 hrs    |
+| CSS Style Material UI Accordion                                       |    H     |      N/A       |     1 hr      |    1 hr     |
+| Code Form component                                                   |    M     |      2 hr      |     1 hr      |    1 hr     |
+| Inputs value set to state                                             |    M     |      1 hr      |     .5 hr     |    .5 hr    |
+| Post input to homepage on submit                                      |    M     |      2 hr      |     1 hr      |    1 hr     |
+| User Guide prompts on load of Form component                          |    H     |      1 hr      |      N/A      |     N/A     |
+| Button on Form component to pull up user guide                        |    H     |      N/A       |     1 hr      |    1 hr     |
+| CSS Form component                                                    |    M     |      2 hr      |     1 hr      |    1 hr     |
+| Create User Guide prompt Component code and full instructions         |    H     |      3 hr      |     3 hrs     |    3 hrs    |
+| Have user guide as pop up over page                                   |    H     |      3 hr      |     3 hrs     |    3 hrs    |
+| User Guide CSS                                                        |    M     |      2 hr      |     1 hr      |    1 hr     |
+| Responsive Design - 1st device                                        |    M     |      2 hr      |     2 hrs     |    2 hrs    |
+| Responsive Design - 2nd device                                        |    M     |      2 hr      |     2 hrs     |    2 hrs    |
+| Only allow post if correct memory view input                          |    H     |      N/A       |    2.5 hrs    |   2.5 hrs   |
+| Total                                                                 |          |     36 hrs     |    32 hrs     |   32 hrs    |
 
 ## SWOT Analysis
 
