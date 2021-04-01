@@ -19,7 +19,7 @@ export default function Memories(props) {
   // let mapSplit = splitMap[0]
   
   // setMapSplit()
-  props.setMapSplit(splitMap[0]);
+  // props.setMapSplit(splitMap[0]);
 
     // console.log(splitMap)
     // console.log(mapInput)

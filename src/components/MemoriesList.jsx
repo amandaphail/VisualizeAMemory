@@ -18,7 +18,7 @@ let memories = props.memories
             {memories.map((memory, index) =>{
                 // console.log(memory.fields)
                 return <Memories 
-                setMapSplit = {props.setMapSplit} 
+                // setMapSplit = {props.setMapSplit} 
                 key = {index} memory={memory} id = {memory.id}/>
             })}
             </div>

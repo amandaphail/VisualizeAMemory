@@ -21,7 +21,7 @@ let [memory, setMemory]= useState({
 })
 
 const history = useHistory()
-const mapSplit = props.mapSplit
+// const mapSplit = props.mapSplit
 // console.log(mapSplit);
 console.log(memory.memoryLink)
 
