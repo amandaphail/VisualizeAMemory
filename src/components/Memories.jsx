@@ -59,7 +59,7 @@ export default function Memories(props) {
                 </AccordionSummary>
                 <AccordionDetails>
                     <div id ="right">
-                        <iframe src={`${userLink}`} allowfullscreen="" loading="lazy"></iframe>
+                        <iframe title={mem.name} src={`${userLink}`} allowfullscreen="" loading="lazy"></iframe>
                         <p className="instruction">  *To become even more immersed, go ahead and switch to full screen view in the Google Map</p>
                     </div>
                 </AccordionDetails>
