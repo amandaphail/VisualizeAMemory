@@ -16,10 +16,6 @@ export default function Memories(props) {
   
   let splitMap = mapInput.split(`"`)
   let userLink = splitMap[1]
-  // let mapSplit = splitMap[0]
-  
-  // setMapSplit()
-  // props.setMapSplit(splitMap[0]);
 
     // console.log(splitMap)
     // console.log(mapInput)

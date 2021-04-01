@@ -24,10 +24,6 @@ function App() {
   }
   // console.log(memories);
 
-  // const [mapSplit, setMapSplit] = useState([]);
-  
-  // console.log(mapSplit);
-
   return (
     <div>
       <header>
@@ -35,7 +31,6 @@ function App() {
       </header>
       <Route exact path="/">
         <MemoriesList
-          // setMapSplit={setMapSplit}
           memories={memories}
           setToggle={setToggle}
         />
@@ -45,7 +40,6 @@ function App() {
       </Route>
       <Route path="/new">
         <Form
-          // mapSplit={mapSplit}
           setToggle={setToggle}
         />
       </Route>

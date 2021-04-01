@@ -3,8 +3,6 @@ import Memories from "./Memories"
 import "./memorieslist.css"
 
 export default function MemoriesList(props) {
-    // props.setMapSplit([2]);
-    // let setMapSplitMemory = props.setMapSplit
 let memories = props.memories
     return (
         <div id="memoriesStyle">
@@ -18,7 +16,6 @@ let memories = props.memories
             {memories.map((memory, index) =>{
                 // console.log(memory.fields)
                 return <Memories 
-                // setMapSplit = {props.setMapSplit} 
                 key = {index} memory={memory} id = {memory.id}/>
             })}
             </div>
