@@ -51,11 +51,6 @@ label {
   }
 
   .criteria {
-    /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 10px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -82,18 +77,16 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-content: flex-start; */
-    /* align-items: flex-start; */
   }
   .instruction {
     font-size: 12px;
   }
 
-  #share{
+  #share {
     font-size: 25px;
   }
 
-  #p{
+  #p {
     font-size: 15px;
   }
 }

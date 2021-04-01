@@ -14,7 +14,6 @@ let memories = props.memories
             <div>
 
             {memories.map((memory, index) =>{
-                // console.log(memory.fields)
                 return <Memories 
                 key = {index} memory={memory} id = {memory.id}/>
             })}

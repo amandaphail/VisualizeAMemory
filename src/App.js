@@ -22,7 +22,7 @@ function App() {
 
     setMemories(response.data.records);
   }
-  // console.log(memories);
+
 
   return (
     <div>

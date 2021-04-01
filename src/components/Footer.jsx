@@ -6,8 +6,8 @@ export default function Footer() {
     return (
         <div id="footer">
             <a href="https://github.com/amandaphail">
-  <img src={logo} alt="Link to my GitHub" id="logo" />
-</a>
+                <img src={logo} alt="Link to my GitHub" id="logo" />
+            </a>
         </div>
     )
 }
