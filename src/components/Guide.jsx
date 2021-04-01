@@ -1,7 +1,7 @@
 import React from 'react'
-import step1 from "../UserGuideImages/streetView.png"
-import step2 from "../UserGuideImages/dotsEdited.png"
-import step3 from "../UserGuideImages/embedEdited.png"
+import step1 from "./UserGuideImages/streetViewInstructions.png"
+import step2 from "./UserGuideImages/dotsInstructions.png"
+import step3 from "./UserGuideImages/embedInstructions.png"
 //https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
 import "./guide.css"
 
