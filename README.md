@@ -63,40 +63,40 @@ The user will go to google maps and get this link. I'll include a user guide wit
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
-| Day           | Deliverable                                                                                          | Status     |
-| ------------- | ---------------------------------------------------------------------------------------------------- | ---------- |
-| March 25 - 26 | Prompt / Wireframes / Component Hierarchy / Timeframes and Experiment with iframe and Map Embed Link | Complete   |
-| March 26      | Project Approval                                                                                     | Incomplete |
-| March 27 - 28 | pseudo code / Core Component and Route Structure / Import API and access information                 | Incomplete |
-| March 28      | Get Map and description to display on page through Memories component                                | Incomplete |
-| March 29      | Form component and Create Post                                                                       | Incomplete |
-| March 30      | Create User Guide "How to Post"                                                                      | Incomplete |
-| March 31      | CSS and Media Query                                                                                  | Incomplete |
-| April 1       | MVP                                                                                                  | Incomplete |
-| April 2       | Presentations                                                                                        | Incomplete |
+| Day           | Deliverable                                                                                          | Status   |
+| ------------- | ---------------------------------------------------------------------------------------------------- | -------- |
+| March 25 - 26 | Prompt / Wireframes / Component Hierarchy / Timeframes and Experiment with iframe and Map Embed Link | Complete |
+| March 26      | Project Approval                                                                                     | Complete |
+| March 27 - 28 | pseudo code / Core Component and Route Structure / Import API and access information                 | Complete |
+| March 28      | Get Map and description to display on page through Memories component                                | Complete |
+| March 29      | Form component and Create Post                                                                       | Complete |
+| March 30      | Create User Guide "How to Post"                                                                      | Complete |
+| March 31      | CSS and Media Query                                                                                  | Complete |
+| April 1       | MVP                                                                                                  | Complete |
+| April 2       | Presentations                                                                                        | Complete |
 
 ## Timeframes
 
 | Component                                                             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Set up Boiler Plate code and components                               |    M     |      1 hr      |      N/A      |     N/A     |
-| Import axios and react-router-dom, getting these set up in components |    M     |      1 hr      |      N/A      |     N/A     |
-| Hide baseURL and API key                                              |    M     |      1 hr      |      N/A      |     N/A     |
-| Get axios data access and Set Route Paths                             |    M     |      2 hr      |      N/A      |     N/A     |
-| Code Navbar component with Links                                      |    M     |      1 hr      |      N/A      |     N/A     |
-| Code Memories component with API info displaying                      |    M     |      3 hr      |      N/A      |     N/A     |
-| Get Map embed code to display functionally                            |    H     |      4 hr      |      N/A      |     N/A     |
-| CSS Navbar and Memories component                                     |    M     |      3 hr      |      N/A      |     N/A     |
-| Code Form component                                                   |    M     |      2 hr      |      N/A      |     N/A     |
-| Inputs value set to state                                             |    M     |      1 hr      |      N/A      |     N/A     |
-| Post input to homepage on submit                                      |    M     |      2 hr      |      N/A      |     N/A     |
-| User Guide prompts on load of Form component                          |    H     |      1 hr      |      N/A      |     N/A     |
-| CSS Form component                                                    |    M     |      2 hr      |      N/A      |     N/A     |
-| Create User Guide prompt Component code and full instructions         |    H     |      3 hr      |      N/A      |     N/A     |
-| Have user guide as pop up over page instead of redirect               |    H     |      3 hr      |      N/A      |     N/A     |
-| User Guide CSS                                                        |    M     |      2 hr      |      N/A      |     N/A     |
-| Responsive Design - 1st device                                        |    M     |      2 hr      |      N/A      |     N/A     |
-| Responsive Design - 2nd device                                        |    M     |      2 hr      |      N/A      |     N/A     |
+| Set up Boiler Plate code and components                               |    M     |      1 hr      |      1hr      |    1 hrs    |
+| Import axios and react-router-dom, getting these set up in components |    M     |      1 hr      |      .5 hr      |    1 hrs    |
+| Hide baseURL and API key                                              |    M     |      1 hr      |     .5 hr     |    1 hrs    |
+| Get axios data access and Set Route Paths                             |    M     |      2 hr      |      1 hr     |    1 hr    |
+| Code Navbar component with Links                                      |    M     |      1 hr      |     1 hr     |    1 hr    |
+| Code Memories component with API info displaying                      |    M     |      3 hr      |     1 hr    |    1 hr   |
+| Get Map embed code to display functionally                            |    H     |      4 hr      |     1 hr     |    1 hr    |
+| CSS Navbar and Memories component                                     |    M     |      3 hr      |     1 hrs     |    1 hrs    |
+| Code Form component                                                   |    M     |      2 hr      |     1 hrs     |    1 hrs    |
+| Inputs value set to state                                             |    M     |      1 hr      |     1 hrs     |    1 hrs    |
+| Post input to homepage on submit                                      |    M     |      2 hr      |     1 hrs     |    1 hrs    |
+| User Guide prompts on load of Form component                          |    H     |      1 hr      |     1 hrs     |    1 hrs    |
+| CSS Form component                                                    |    M     |      2 hr      |     1 hrs     |    1 hrs    |
+| Create User Guide prompt Component code and full instructions         |    H     |      3 hr      |     1 hrs     |    1 hrs    |
+| Have user guide as pop up over page instead of redirect               |    H     |      3 hr      |     1 hrs     |    1 hrs    |
+| User Guide CSS                                                        |    M     |      2 hr      |     1 hrs     |    1 hrs    |
+| Responsive Design - 1st device                                        |    M     |      2 hr      |     1 hrs     |    1 hrs    |
+| Responsive Design - 2nd device                                        |    M     |      2 hr      |     1 hrs     |    1 hrs    |
 | Total                                                                 |          |     36 hrs     |     5hrs      |    5hrs     |
 
 ## SWOT Analysis
