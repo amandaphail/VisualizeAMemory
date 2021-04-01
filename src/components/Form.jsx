@@ -21,7 +21,10 @@ let [memory, setMemory]= useState({
 })
 
 const history = useHistory()
-// const mapSplit = props.mapSplit
+const mapSplit = props.mapSplit
+// console.log(mapSplit);
+console.log(memory.memoryLink)
+
 
 function handleChange(event){
     let {name, value} = event.target
@@ -30,13 +33,25 @@ function handleChange(event){
 
 async function handleSubmit(event){
     event.preventDefault()
-//     if(!mapSplit[0].includes("<iframe src=")){
+
+    
+
+  let mapInput = memory.memoryLink
+  
+  let splitMap = mapInput.split(`"`)
+  let mapCreation = splitMap[0]
+console.log(mapCreation)
+
+
+//     if(mapSplit.includes("") !== "<iframe src="){
 //         alert('This is the wrong input!  Check out our User Guide to find the right one!')
-//   } else{
+if(mapCreation !== "<iframe src="){
+            alert('This is the wrong input!  Check out our User Guide to find the right one!')
+  } else{
     await axios.post(baseURL,{fields:memory}, config)
     props.setToggle((prevState) => !prevState )
     history.push('/')
-//   }
+  }
     
 }
 

@@ -26,7 +26,7 @@ function App() {
 
   const [mapSplit, setMapSplit] = useState([]);
   
-  console.log(mapSplit);
+  // console.log(mapSplit);
 
   return (
     <div>
@@ -45,7 +45,7 @@ function App() {
       </Route>
       <Route path="/new">
         <Form
-          // mapSplit={mapSplit}
+          mapSplit={mapSplit}
           setToggle={setToggle}
         />
       </Route>
